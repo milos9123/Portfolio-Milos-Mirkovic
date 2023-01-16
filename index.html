@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/shortcut-logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Miloš Mirković | Portfolio</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+      </label>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#section-about" class="navigation__link">
+              <span>01</span>About me
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#section-technologies" class="navigation__link">
+              <span>02</span>Technologies
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#section-project" class="navigation__link">
+              <span>03</span>Projects</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-skills" class="navigation__link">
+              <span>04</span>Education-skills</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-contact" class="navigation__link">
+              <span>05</span>Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo1.png" alt="Logo" class="header__logo" />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Miloš Mirković</span>
+          <span class="heading-primary--sub">junior frontend developer</span>
+        </h1>
+        <a href="#section-project" class="btn btn--white btn--animated"
+          >My projects</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Something about me</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">Career start</h3>
+            <p class="paragraph">
+              Hello, my name is Milos Mirkovic. I graduated from University of
+              Belgrade, where I obtained a diploma in Economics. I acquired
+              knowledge from statistics, project and business managment.
+            </p>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Career advancement and career change
+            </h3>
+            <p class="paragraph">
+              I have been working as a marketing and sales manager and I decided
+              to change my occupation after six years of working in sales. I am
+              outgoing, dedicated, and open-minded. I get across to people and
+              adjust to changes with ease. I believe that a person should work
+              on developing their professional skills and learning new things
+              all the time. Currently I am looking for new career opportunities
+              in frontend developing.
+            </p>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="img/about1.jpg"
+                alt="Photo1"
+                class="composition__photo composition__photo--p1"
+              /><img
+                src="img/about2.jpg"
+                alt="Photo2"
+                class="composition__photo composition__photo--p2"
+              /><img
+                src="img/about3.jpg"
+                alt="Photo3"
+                class="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-technologies" id="section-technologies">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-css3-alt technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">CSS</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-html5 technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">HTML</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-square-js technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                JAVA SCRIPT
+              </h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-sass technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">SASS</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-react technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">REACT</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-node technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">NODE JS</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-bootstrap technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">BOOTSTRAP</h3>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="technologies-box">
+              <i class="fa-brands fa-angular technologies-box__icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">ANGULAR</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-project" id="section-project">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">My projects</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">
+                    Booking hotels
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>JAVA SCRIPT</li>
+                    <li>NODE JS</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__name-box">
+                    <p class="card__heading-box">Booking hotels</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Visit now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2">
+                    Catering aplication
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>HTML</li>
+                    <li>SASS</li>
+                    <li>REACT</li>
+                    <li>BOOTSTRAP</li>
+                    <li>NODE JS</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__name-box">
+                    <p class="card__heading-box">Catering aplication</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Visit now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3">
+                    The coffee shop
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVA SCRIPT</li>
+                    <li>REACT</li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__name-box">
+                    <p class="card__heading-box">The coffee shop</p>
+                  </div>
+                  <a href="#" class="btn btn--white">Visit now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--blue">Discover all projects</a>
+        </div>
+      </section>
+      <section class="section-skills" id="section-skills">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video11.mp4" type="video/mp4" />
+            Your browser is not supported!
+          </video>
+        </div>
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Education and skills</h2>
+        </div>
+        <div class="row">
+          <div class="skills">
+            <figure class="skills__shape">
+              <img
+                src="img/education.jpg"
+                alt="Person on a tour"
+                class="skills__img"
+              />
+            </figure>
+            <div class="skills__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Education and courses
+              </h3>
+              <p>
+                &rarr;Faculty of Economics and Business, University of Belgrade-
+                2010-2016
+              </p>
+              <p>
+                &rarr;Code by Comtrade, Front-End Development course - 2022-2023
+              </p>
+              <p>&rarr;Udemy-Online courses HTML, CSS, JAVA SCRIPT - 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="skills">
+            <figure class="skills__shape">
+              <img
+                src="img/skill.jpg"
+                alt="Person on a tour"
+                class="skills__img"
+              />
+            </figure>
+            <div class="skills__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                skills and advantages
+              </h3>
+
+              <p>&rarr;Creative person with attention to details</p>
+              <p>
+                &rarr;Focused on requests from clients and cooperation process
+              </p>
+              <p>&rarr;Courious to cooperate and learn from skilled people</p>
+              <p>&rarr;Strong organizational and planning skills</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact" id="section-contact">
+        <div class="row">
+          <div class="contact">
+            <div class="contact__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Contact me</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email adress"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email adress</label>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--blue">Send me email &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="img/logo2.png" alt="footer logo" class="footer__logo" />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#section-about" class="footer__link">About me</a>
+              </li>
+              <li class="footer__item">
+                <a href="#section-technologies" class="footer__link"
+                  >Technologies</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#section-project" class="footer__link">Projects</a>
+              </li>
+              <li class="footer__item">
+                <a href="#section-skills" class="footer__link"
+                  >Education-skills</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#section-contact" class="footer__link">Contact</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-brands fa-instagram footer__icons"></i
+                ></a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">mirkovicmilos23@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Created by
+            <a href="#" class="footer__link">MILOS MIRKOVIC</a> inspired by
+            Advanced CSS and SASS online course Jonas Schmedtmann. | © 2022 All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <section class="grid-test">
+      <div class="row">
+        <div class="col-1-of-2">Col 1 of 2</div>
+        <div class="col-1-of-2">Col 1 of 2</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-1-of-3">Col 1 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-2-of-3">Col 2 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-2-of-4">Col 2 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-3-of-4">Col 3 of 4</div>
+      </div>
+    </section> -->
+  </body>
+</html>
